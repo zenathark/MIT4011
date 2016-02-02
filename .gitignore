@@ -1,3 +1,5 @@
 *~
 *.dSYM
 ex1/ex1
+*.out
+ejemplo8
