@@ -1,0 +1,108 @@
+#+LATEX_CLASS: koma-article
+#+LATEX_CLASS_OPTIONS: [BCOR=0mm, DIV=11, headinclude=false, footinclude=false, paper=A4, fontsize=8pt]
+#+LATEX_HEADER: \usepackage{syllabus}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+TITLE:
+#+OPTIONS: H:1 toc:nil
+
+#+ATTR_LATEX: :align |X[-1,c,m]|X[c,m]| :environment tabu :width \textwidth
+|--------------------------------------------------+---------------------------------------------------------|
+|                                                  | Bachelor in Computer Science and Information Technology |
+| \includegraphics[width=2cm]{./img/logowhite.png} | *Syllabus*                                        |
+| Engineering School                               | Introduction to Programming                             |
+|--------------------------------------------------+---------------------------------------------------------|
+
+#+ATTR_LATEX: :align |l|X[3]|l|X[1]| :environment tabu :width \textwidth
+|---------------+-----------------------------------------+----------+-----------|
+| *Departament* | Computing, Electronics and Mechatronics | *Course* | LIS1011   |
+| *Instructor*  | PhD Juan Carlos Galán Hernández         | *Term*   | Fall 2016 |
+|---------------+-----------------------------------------+----------+-----------|
+
+* Objective
+This course covers the basics of the design and implementation of algorithms
+using a programming language.
+
+* Student Learning Outcomes
+By the end of this course, students will be able to:
++ Develop algoritms for solving classic computing problems
++ Write given algorithms using the C programming language
++ Identify strengths and weakness of different algorithmic solutions
++ Write basic programs
+
+* Course Prerequisites
+This course does not have any prerequisites
+
+* Contents
+
+#+LATEX: \begin{multicols}{2}
+1. Introduction
+   1. Algorithm overview
+   2. Programming Language Introduction
+   3. Programming Toolchain
+2. Basic Concepts
+   1. Basic Output
+   2. Variables
+   3. Data Types
+   4. Operators
+   5. Expressions
+   6. Basic Input
+3. Control Flow
+   1. If-Then-Else Structure
+   2. Switch Case Structure
+   3. For Loop
+   4. While Loop
+   5. Do While Loop
+4. Functions
+   1. Function Body
+   2. Function Arguments
+   3. Return Types
+5. Arrays and Data Structures
+   1. Arrays
+   2. Structs
+6. Basic Memory Management
+   1. Memory Structure
+   2. Pointers
+   3. Data Structures as Arguments
+   4. Variadic functions
+7. Advanced Topics
+   1. C Language Specifications
+   2. C Libraries
+   3. Macros
+   4. C as Foreign Functionx
+#+LATEX: \end{multicols}
+
+* Evaluation Criteria and Evaluation Dates
++ Elements of Assessment
+  - 3 Partial exams 45%
+  - 1 Final exam    45%
+  - Homework Assignments 55%
+  - Lab Assignments 100%
++ Partial Exam Dates
+  - September 5
+  - October 3
+  - November 2
++ Final Exam Date: TBA
++ General Policy
+  - It is student’s responsibility to stay in campus or near this until the last day of final exams, which can be scheduled for a period of ten working days after the final day of lectures.
+  - It is advised to attend all lectures.
+  - The delivery of homeworks and projects in the set time is important. NO assignments will be accepted out of time. Work submitted late (with justification) will be assessed on 80% of its original value. No assignments will be accepted more than one week late.
+  - The student requires 80% attendance to be eligible to present the final test.
+  - Any case of plagiarism or academic fraud is punishable by a 0 (zero) in the task or job in question. If a student commits fraud for a second time, the case will be presented to the Board of the Department, where the penalty will be determined.
+
+* Recomended and Supplementary textbooks
+#+LATEX: \renewcommand{\labelenumi}{[\arabic{enumi}]}
+1. Ben Klemmens; 21st Century C; Ed. 2; September 2014; O'Reilly Media
+2. Alan R. Feuer; The C puzzle book; 1982; Prentice-Hall
+3. Brian P. Hogan; Exercises for Programmers; October 2015; Pragmatic Bookshelf
+4. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein; Introduction to Algorithms; 2009; MIT Press
+5. Brian W. Kernighan, Dennis M. Ritchie; The C Programming Language; 1988; Prentice-Hall *
+
+
+#+BEGIN_LATEX
+%%% Local Variables:
+%%% TeX-master: t
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+#+END_LATEX

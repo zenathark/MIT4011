@@ -1,0 +1,51 @@
+#+LATEX_CLASS: koma-article
+#+LATEX_CLASS_OPTIONS: [BCOR=0mm, DIV=11, headinclude=false, footinclude=false, paper=A4, fontsize=8pt]
+#+LATEX_HEADER: \usepackage{syllabus}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+TITLE:
+#+OPTIONS: H:1 toc:nil
+
+#+ATTR_LATEX: :align |X[-1,c,m]|X[c,m]| :environment tabu :width \textwidth
+|--------------------------------------------------+---------------------------------------------------------|
+|                                                  | Bachelor in Computer Science and Information Technology |
+| \includegraphics[width=2cm]{./img/logowhite.png} | *Detailed Programme*                                    |
+| Engineering School                               | Introduction to Programming                             |
+|--------------------------------------------------+---------------------------------------------------------|
+
+#+ATTR_LATEX: :align |l|X[3]|l|X[1]| :environment tabu :width \textwidth
+|---------------+-----------------------------------------+----------+-------------|
+| *Departament* | Computing, Electronics and Mechatronics | *Course* | TBM4011     |
+| *Instructor*  | PhD Juan Carlos Galán Hernández         | *Term*   | Summer 2017 |
+|---------------+-----------------------------------------+----------+-------------|
+
+* Objective
+This course covers the basics of the design and implementation of apps and algorithms
+using the C programming language.
+
+* Student Learning Outcomes
+By the end of this course, students will be able to:
++ Develop algoritms for solving classic computing problems
++ Write given algorithms using the C programming language
++ Identify strengths and weakness of different algorithmic solutions
++ Write basic apps
+
+* Course Prerequisites
+This course does not have any prerequisites
+
+1. Gramatic
+   1. Introduction to Programming
+   2. Critical Thinking for Programming
+   3. Programming Tools
+   4. C Programming Fundamentals
+	  1. Numbers
+	  2. Strings
+	  3. Conversions
+2. Control Flow
+   1. Comparision
+   2. Branching
+   3. Looping
+3. Arrays and Dynamic Memory
+   1. Static Arrays
+   2. Dynamic Arrays
+   3. Iterating Arrays
+4. Classical Algorithms
