@@ -32,20 +32,20 @@ By the end of this course, students will be able to:
 * Course Prerequisites
 This course does not have any prerequisites
 
-1. Gramatic
-   1. Introduction to Programming
-   2. Critical Thinking for Programming
-   3. Programming Tools
-   4. C Programming Fundamentals
-	  1. Numbers
-	  2. Strings
-	  3. Conversions
-2. Control Flow
+1. Introduction to Programming
+   1. Critical Thinking for Programming
+   2. Programming Tools
+2. C Programming Fundamentals
+   1. Numbers
+   2. Strings
+   3. Conversions
+   4. Functions
+4. Control Flow
    1. Comparision
    2. Branching
    3. Looping
-3. Arrays and Dynamic Memory
+5. Arrays and Dynamic Memory
    1. Static Arrays
    2. Dynamic Arrays
    3. Iterating Arrays
-4. Classical Algorithms
+6. Classical Algorithms
